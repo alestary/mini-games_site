@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+.center {
+    padding-left: calc(50% - 660px);
+    padding-right: calc(50% - 660px);
+}
+.header {
+    background-color: #E1FF8F;
+    height: 800px;
+    background-image: url(img/Group\ 1597880568\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    &__title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        padding-top: 196px;
+        width: 769px;
+    }
+    &__subtitle {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        padding-top: 24px;
+        width: 720px;
+    }
+    &__button {
+        width: 247px;
+        height: 66px;
+        border-width: 1px;
+        gap: 10px;
+        border-radius: 60px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 142%;
+        text-align: center;
+        margin-top: 48px;
+        color: #FFFFFF;
+        background-color: #000000;
+        &:hover {
+            background-color: #FFFFFF;
+            color: #000000;
+            transition: all 1s;
+            cursor: pointer;
+        }
+    }
+    &__star {
+        &-2 {
+            top: 94px;
+            left: 63px;
+        }
+        &-3 {
+            top: 69px;
+            left: 156px;
+        }
+    }
+    &__strip {
+        width: 3220px;
+        margin-left: -137.15%;
+        background-color: #BCEC30;
+        height: 90px;
+        border-width: 1px;
+        margin-top: 184px;
+        gap: 10px;
+    }
+}
+.games {
+    background-color: #202027;
+    height: 1470px;
+    &__title {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        padding-top: 94px;
+    }
+    &__subtitle {
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        padding-top: 24px;
+    }
+    &__box {
+        margin-top: 72px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &-column {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+    }
+    &__card {
+        &-1 { height: 473px;
+            width: 378px;
+            border-radius: 30px;
+            background-color: #FFFFFF;
+            &:hover {
+                cursor: pointer;
+                width: 105%;
+                height: 55%;
+                transition: all 1s;
+            }
+        }
+        &-2 { height: 512px;
+            width: 378px;
+            border-radius: 30px;
+            background-color: #FFFFFF;
+            &:hover {
+                cursor: pointer;
+                width: 105%;
+                height: 55%;
+                transition: all 1s;
+            }
+        }
+        &-3 { height: 473px;         
+            width: 378px;
+            border-radius: 30px;
+            background-color: #FFFFFF;
+            &:hover {
+                cursor: pointer;
+                width: 105%;
+                height: 55%;
+                transition: all 1s;
+            }
+        }
+        &-4 { height: 551px;
+            width: 378px;
+            border-radius: 30px;
+            background-color: #FFFFFF;
+            &:hover {
+                cursor: pointer;
+                width: 105%;
+                height: 55%;
+                transition: all 1s;
+            }
+        }
+        &-5 { height: 512px;
+            width: 378px;
+            border-radius: 30px;
+            background-color: #FFFFFF;
+            &:hover {
+                cursor: pointer;
+                width: 105%;
+                height: 55%;
+                transition: all 1s;
+            }
+        }
+        &-6 { height: 551px;
+            width: 378px;
+            border-radius: 30px;
+            background-color: #FFFFFF;
+            &:hover {
+                cursor: pointer;
+                width: 105%;
+                height: 55%;
+                transition: all 1s;
+            }
+        }
+    }
+}
+.game {
+    &__img {
+        width: 100%;
+    }
+    &__number {
+        background-color: #F7F7F7;
+        width: 108px;
+        height: 36px;
+        border-radius: 52.5px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 110%;
+        vertical-align: bottom;
+        margin-top: 32px;
+        align-content: center;
+        margin-left: 32px;
+        text-align: center;
+    }
+    &__name { 
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        margin-left: 32px;
+        margin-top: 16px;
+    }
+}
