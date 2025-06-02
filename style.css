@@ -22,7 +22,7 @@ a {
 .header {
   background-color: #E1FF8F;
   height: 800px;
-  background-image: url(img/Group\ 1597880568\ \(1\).png);
+  background-image: url(img/background_main.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -63,6 +63,14 @@ a {
 }
 .header__button:hover {
   background-color: #FFFFFF;
+  color: #000000;
+  transition: all 1s;
+  cursor: pointer;
+}
+.header__button-link {
+  color: #FFFFFF;
+}
+.header__button-link:hover {
   color: #000000;
   transition: all 1s;
   cursor: pointer;
@@ -126,21 +134,17 @@ a {
 }
 .games__card-1:hover {
   cursor: pointer;
-  width: 105%;
-  height: 55%;
-  transition: all 1s;
+  transform: scale(1.1);
 }
 .games__card-2 {
   height: 512px;
   width: 378px;
   border-radius: 30px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .games__card-2:hover {
   cursor: pointer;
-  width: 105%;
-  height: 55%;
-  transition: all 1s;
+  transform: scale(1.1);
 }
 .games__card-3 {
   height: 473px;
@@ -150,9 +154,7 @@ a {
 }
 .games__card-3:hover {
   cursor: pointer;
-  width: 105%;
-  height: 55%;
-  transition: all 1s;
+  transform: scale(1.1);
 }
 .games__card-4 {
   height: 551px;
@@ -162,9 +164,7 @@ a {
 }
 .games__card-4:hover {
   cursor: pointer;
-  width: 105%;
-  height: 55%;
-  transition: all 1s;
+  transform: scale(1.1);
 }
 .games__card-5 {
   height: 512px;
@@ -174,9 +174,7 @@ a {
 }
 .games__card-5:hover {
   cursor: pointer;
-  width: 105%;
-  height: 55%;
-  transition: all 1s;
+  transform: scale(1.1);
 }
 .games__card-6 {
   height: 551px;
@@ -186,15 +184,12 @@ a {
 }
 .games__card-6:hover {
   cursor: pointer;
-  width: 105%;
-  height: 55%;
-  transition: all 1s;
+  transform: scale(1.1);
 }
-
-.game__img {
+.games__img {
   width: 100%;
 }
-.game__number {
+.games__number {
   background-color: #F7F7F7;
   width: 108px;
   height: 36px;
@@ -210,7 +205,7 @@ a {
   margin-left: 32px;
   text-align: center;
 }
-.game__name {
+.games__name {
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
@@ -218,4 +213,4 @@ a {
   vertical-align: middle;
   margin-left: 32px;
   margin-top: 16px;
-}/*# sourceMappingURL=main_style.css.map */
+}/*# sourceMappingURL=style.css.map */
