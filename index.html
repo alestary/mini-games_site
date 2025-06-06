@@ -13,7 +13,7 @@
     <header class="header center">
         <h1 class="header__title">Добро пожаловать <br> на мой сайт мини-игр</h1>
         <h3 class="header__subtitle">Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай «Поехали!» и приступай.</h3>
-        <button class="header__button"><a class="header__button-link" href="#games1">Поехали!</a></button>
+        <a class="header__button" href="#games1">Поехали!</a>
         <div class="header__strip"></div>
     </header>
     <div class="background center">
@@ -22,46 +22,46 @@
             <h3 class="games__subtitle">В моей коллекции представлено 6 игр на разные темы.<br> Игры несложные — в них может поиграть каждый.<br> Все игры доступны для пользования.</h3>
             <div class="games__box">
                 <div class="games__box-column">
-                    <article class="games__card-1">
+                    <a class="games__card games__card-1"  href="#game4">
                         <img class="games__img" src="img/card_img(1).png">
                         <h4 class="games__number">Игра № 1</h4>
                         <h2 class="games__name">Угадай число</h2>
-                    </article>
-                    <article class="games__card-4">
+                    </a>
+                    <a class="games__card games__card-4" href="#game4">
                         <img class="games__img" src="img/card_img(4).png">
                         <h4 class="games__number">Игра № 4</h4>
                         <h2 class="games__name">Камень,<br> ножницы,<br> бумага</h2>
-                    </article>
+                    </a>
                 </div>
                 <div class="games__box-column"> 
-                    <article class="games__card-2">
+                    <a class="games__card games__card-2" href="#game2">
                         <img class="games__img" src="img/card_img(2).png">
                         <h4 class="games__number">Игра № 2</h4>
                         <h2 class="games__name">Простая <br> арифметика</h2>                
-                    </article>         
-                    <article class="games__card-5">
+                    </a>         
+                    <a class="games__card games__card-5" href="#game4">
                         <img class="games__img" src="img/card_img(5).png">
                         <h4 class="games__number">Игра № 5</h4>
                         <h2 class="games__name">Простая<br> викторина</h2>
-                    </article>          
+                    </a>          
                 </div>    
                 <div class="games__box-column"> 
-                    <article class="games__card-3">
-                        <img class="games__img" src="img/card_img(5).png">
+                    <a class="games__card games__card-3" href="#game3">
+                        <img class="games__img" src="img/card_img(3).png">
                         <h4 class="games__number">Игра № 3</h4>
                         <h2 class="games__name">Переверни текст</h2>
-                    </article>         
-                    <article class="games__card-6">
+                    </a>         
+                    <a class="games__card games__card-6" href="#game6">
                         <img class="games__img" src="img/card_img(6).png">
                         <h4 class="games__number">Игра № 6</h4>
                         <h2 class="games__name">Генератор<br> случайных<br> цветов</h2>
-                    </article>
+                    </a>
                 </div>
             </div>
         </section>
         <section class="minigames center">
             <h1 class="minigames__title">Мини-игры</h1>
-            <article class="minigames__card-leftside">
+            <article class="minigames__card-leftside" id="game1">
                 <img class="minigames__img" src="img/card_img(1).png">
                 <div class="minigames__text">
                     <h2 class="minigames__name">Угадай число</h2>
@@ -69,7 +69,7 @@
                     <a class="minigames__button" href="#">Играть!</a>
                 </div>
             </article>
-            <article class="minigames__card-rightside">
+            <article class="minigames__card-rightside" id="game2">
                 <img class="minigames__img" src="img/card_img(2).png">
                 <div class="minigames__text">
                     <h2 class="minigames__name">Простая <br> арифметика</h2>
@@ -77,7 +77,7 @@
                     <a class="minigames__button" href="#">Играть!</a>
                 </div>               
             </article> 
-            <article class="minigames__card-leftside">
+            <article class="minigames__card-leftside" id="game3">
                 <img class="minigames__img" src="img/card_img(3).png">
                 <div class="minigames__text">
                     <h2 class="minigames__name">Переверни текст</h2>
@@ -85,7 +85,7 @@
                     <a class="minigames__button" href="#">Играть!</a>
                 </div>
             </article>      
-            <article class="minigames__card-rightside">
+            <article class="minigames__card-rightside" id="game4">
                 <img class="minigames__img" src="img/card_img(4).png">
                 <div class="minigames__text">
                     <h2 class="minigames__name">Камень,<br> ножницы,<br> бумага</h2>
@@ -93,7 +93,7 @@
                     <a class="minigames__button" href="#">Играть!</a>
                 </div>
             </article>        
-            <article class="minigames__card-leftside">
+            <article class="minigames__card-leftside" id="game5">
                 <img class="minigames__img" src="img/card_img(5).png">
                 <div class="minigames__text">
                     <h2 class="minigames__name">Простая<br> викторина</h2>
@@ -101,7 +101,7 @@
                     <a class="minigames__button" href="#">Играть!</a>
                 </div>
             </article>             
-            <article class="minigames__card-rightside">
+            <article class="minigames__card-rightside" id="game6">
                 <img class="minigames__img" src="img/card_img(6).png">
                 <div class="minigames__text">
                     <h2 class="minigames__name">Генератор<br> случайных<br> цветов</h2>

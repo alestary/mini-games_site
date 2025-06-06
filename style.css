@@ -45,32 +45,23 @@ a {
   width: 720px;
 }
 .header__button {
+  margin-top: 48px;
+  display: block;
   width: 247px;
   height: 66px;
   border-width: 1px;
-  gap: 10px;
+  border-color: #000000;
   border-radius: 60px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  font-family: Montserrat;
+  background-color: #000000;
+  color: #FFFFFF;
   font-weight: 600;
   font-size: 24px;
   line-height: 142%;
   text-align: center;
-  margin-top: 48px;
-  color: #FFFFFF;
-  background-color: #000000;
+  align-content: center;
 }
 .header__button:hover {
   background-color: #FFFFFF;
-  color: #000000;
-  transition: all 1s;
-  cursor: pointer;
-}
-.header__button-link {
-  color: #FFFFFF;
-}
-.header__button-link:hover {
   color: #000000;
   transition: all 1s;
   cursor: pointer;
@@ -127,65 +118,40 @@ a {
   flex-direction: column;
   gap: 32px;
 }
+.games__card {
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.games__card:hover {
+  border-color: #000000;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 1s;
+}
 .games__card-1 {
   height: 473px;
   width: 378px;
-  border-radius: 30px;
-  background-color: #FFFFFF;
-}
-.games__card-1:hover {
-  cursor: pointer;
-  transform: scale(1.1);
 }
 .games__card-2 {
   height: 512px;
   width: 378px;
-  border-radius: 30px;
-  background-color: #ffffff;
-}
-.games__card-2:hover {
-  cursor: pointer;
-  transform: scale(1.1);
 }
 .games__card-3 {
   height: 473px;
   width: 378px;
-  border-radius: 30px;
-  background-color: #FFFFFF;
-}
-.games__card-3:hover {
-  cursor: pointer;
-  transform: scale(1.1);
 }
 .games__card-4 {
   height: 551px;
   width: 378px;
-  border-radius: 30px;
-  background-color: #FFFFFF;
-}
-.games__card-4:hover {
-  cursor: pointer;
-  transform: scale(1.1);
 }
 .games__card-5 {
   height: 512px;
   width: 378px;
-  border-radius: 30px;
-  background-color: #FFFFFF;
-}
-.games__card-5:hover {
-  cursor: pointer;
-  transform: scale(1.1);
 }
 .games__card-6 {
   height: 551px;
   width: 378px;
-  border-radius: 30px;
-  background-color: #FFFFFF;
-}
-.games__card-6:hover {
-  cursor: pointer;
-  transform: scale(1.1);
 }
 .games__img {
   width: 100%;
@@ -294,7 +260,7 @@ a {
 .minigames__button:hover {
   background-color: #fff;
   color: #000000;
-  transform: all 1s;
+  transition: all 1s;
   cursor: pointer;
 }
 

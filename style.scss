@@ -40,34 +40,25 @@ a {
         width: 720px;
     }
     &__button {
+        margin-top: 48px;
+        display: block;
         width: 247px;
         height: 66px;
         border-width: 1px;
-        gap: 10px;
+        border-color: #000000;
         border-radius: 60px;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        font-family: Montserrat;
+        background-color: #000000;
+        color: #FFFFFF;
         font-weight: 600;
         font-size: 24px;
         line-height: 142%;
         text-align: center;
-        margin-top: 48px;
-        color: #FFFFFF;
-        background-color: #000000;
+        align-content: center;
         &:hover {
             background-color: #FFFFFF;
             color: #000000;
             transition: all 1s;
             cursor: pointer;
-        }
-        &-link {
-            color: #FFFFFF;
-            &:hover {
-                color: #000000;
-                transition: all 1s;
-                cursor: pointer;
-            }
         }
     }
     &__strip {
@@ -121,59 +112,32 @@ a {
         }
     }
     &__card {
+        border-radius: 30px;
+        background-color: #FFFFFF;
+        color: #000000;
+        &:hover {
+            border-color: #000000;
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: all 1s;
+        }
         &-1 { height: 473px;
             width: 378px;
-            border-radius: 30px;
-            background-color: #FFFFFF;
-            &:hover {
-                cursor: pointer;
-                transform: scale(1.1);
-            }
         }
         &-2 { height: 512px;
             width: 378px;
-            border-radius: 30px;
-            background-color: #ffffff;
-            &:hover {
-                cursor: pointer;
-                transform: scale(1.1);
-            }
         }
         &-3 { height: 473px;         
             width: 378px;
-            border-radius: 30px;
-            background-color: #FFFFFF;
-            &:hover {
-                cursor: pointer;
-                transform: scale(1.1);
-            }
         }
         &-4 { height: 551px;
             width: 378px;
-            border-radius: 30px;
-            background-color: #FFFFFF;
-            &:hover {
-                cursor: pointer;
-                transform: scale(1.1);
-            }
         }
         &-5 { height: 512px;
             width: 378px;
-            border-radius: 30px;
-            background-color: #FFFFFF;
-            &:hover {
-                cursor: pointer;
-                transform: scale(1.1);
-            }
         }
         &-6 { height: 551px;
             width: 378px;
-            border-radius: 30px;
-            background-color: #FFFFFF;
-            &:hover {
-                cursor: pointer;
-                transform: scale(1.1);
-            }
         }
     }
     &__img {
@@ -283,7 +247,7 @@ a {
         &:hover {
             background-color: #fff;
             color: #000000;
-            transform: all 1s;
+            transition: all 1s;
             cursor: pointer;
         }
     }
