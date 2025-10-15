@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 375px) {
 
     .center {
         padding-left: 16px;
@@ -6,7 +6,6 @@
     }
     .header {
         background-color: #E1FF8F;
-        height: 752px;
         background-image: url(img/background_mobile.png);
         background-repeat: no-repeat;
         background-size: 100%;
@@ -35,10 +34,7 @@
             margin-top: 36px;
         }
         &__strip {
-            height: 52px;
-            margin-top: 180px;
             width: 108%;
-            margin-left: 0px;
         }
     }
     .background {
@@ -94,6 +90,7 @@
             border-radius: 60px;
             border-width: 1px;
             margin-bottom: 32px;
+            align-self: center;
         }
     }
     .footer {
