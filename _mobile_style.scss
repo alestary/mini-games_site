@@ -1,4 +1,74 @@
-@media (max-width: 375px) {
+@media (max-width: 1000px) {
+    .header {
+        &__title {
+            font-size: 60px;
+            width: 100%;
+        }
+    }
+    .minigames {
+        &__card {
+            &-leftside {
+                height: 400px;
+            }
+            &-rightside {
+                height: 400px;
+            }
+        }
+    }
+    .minigames {
+        margin-top: 0px;
+        padding-top: 48px;
+        padding-bottom: 10px;
+        gap: 24px;
+        &__title {
+            font-weight: 700;
+            font-size: 40px;
+            vertical-align: middle;
+            margin-bottom: 0px;
+        }
+        &__card {
+            &-leftside {
+                width: 70%;
+                height: 100%;
+                flex-direction: column;
+                border-radius: 30px;
+            }
+            &-rightside {
+                width: 70%;
+                height: 100%;
+                flex-direction: column;
+                border-radius: 30px;
+            }
+        }
+        &__text {
+            padding-left: 29px;
+            padding-right: 29px;
+        }
+        &__name {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 100%;
+            margin-top: 28px;
+        }
+        &__description {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            padding-top: 16px;
+            padding-bottom: 32px;
+        }
+        &__button {
+            width: 285px;
+            height: 55px;
+            border-radius: 60px;
+            border-width: 1px;
+            margin-bottom: 32px;
+            align-self: center;
+        }
+    }
+}
+
+@media (max-width: 750px) {
     .center {
         padding-left: 16px;
         padding-right: 16px;

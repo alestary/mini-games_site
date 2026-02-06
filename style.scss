@@ -1,13 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    max-width: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
 }
@@ -61,16 +67,52 @@ a {
             cursor: pointer;
         }
     }
-    &__strip {
-        background-color: #BCEC30;
-        border-width: 1px;
-        margin-top: 184px;
-    }
 }
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background: #BCEC30;
+    height: 90px;
+}
+.marquee-content .separator {
+margin: 0 20px;
+color: #202027;
+font-weight: bold;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.marquee-track {
+    width: max-content;
+    animation: marquee 30s linear infinite;
+    height: 90px;
+}
+
+.marquee-content {
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    padding: 27px 49px 27px 49px;
+}
+
+.marquee-content span {
+    font-size: 32px;
+    font-weight: 700;
+    white-space: nowrap;
+    color: #202027;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
 .background {
     background: url(img/background_games.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: #202027;
 }
 .games {
     height: 100%;
@@ -100,7 +142,10 @@ a {
         padding-bottom: 72px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 32px;
+        row-gap: 32px;
         &-column {
             display: flex;
             flex-direction: column;
@@ -168,6 +213,7 @@ a {
 .minigames {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 32px;
     margin-top: 64px;
     padding-bottom: 144px;
